@@ -33,11 +33,11 @@ header button:hover{
 
 
 .Grow h2{
-    position: absolute;
+    position: relative;
     
 }
 .parrafogrow{
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .Grow{
@@ -45,10 +45,10 @@ header button:hover{
     justify-content: space-between;
     margin-left: 60px;
     margin-top: 50px;
-    position: absolute;
+    position: relative;
 }
 .imggrow{
-    width: 500px;
+    width: 400px;
     height: 350px;
 
 }
@@ -70,9 +70,7 @@ header button:hover{
 
 .Flowing h2{
     margin-top: 60px;
-    margin-left: 650px;
-}
-.Flowing>h2{
+    margin-left: 700px;
     position: absolute;
 }
 
@@ -251,16 +249,43 @@ header button:hover{
     text-align: justify;
 }
 
-
-.botonfinal{
-    justify-content: space-around;
-    margin-top: 80px;
+.preguntafinal{
+    margin-top: 20px;
+}
+.buttongetstart{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 
+.preguntafinal{
+    text-align: center;
+}
 
+footer{
+    background: url(./images/bg-footer-top-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.primercuadro{
+    justify-content: column;
+    
+}
 
+.news{
+    justify-content: column;
+    margin-left: 2rem;
+}
+.botonsuscribe button{
 
+    border-bottom: 30px;
+    border: 1px solid hsl(322, 100%, 66%);
+    width: 100px;
+    font-size: 15px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
 
 
 @media screen and (max-width: 375px){
