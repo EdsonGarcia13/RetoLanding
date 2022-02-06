@@ -31,7 +31,6 @@ header button:hover{
     color: white;
 }
 
-<<<<<<< HEAD
 
 .Grow h2{
     position: absolute;
@@ -105,8 +104,6 @@ header button:hover{
 
 
     
-=======
->>>>>>> 868845c8fbdfac5450e5805e5668de8074b36ce9
 .section-01{
     text-align: center;
 }
@@ -265,9 +262,6 @@ header button:hover{
 
 
 
-.footer{
-   
-}
 
 @media screen and (max-width: 375px){
     .imgconversacion img{
@@ -307,12 +301,5 @@ header button:hover{
     .imgconversacion img{
         width: 100%;
         
-    }
-}
-
-@media screen and (max-width: 1440px){
-    .imgconversacion img{
-        /* width: 100%; */
-       
     }
 }
