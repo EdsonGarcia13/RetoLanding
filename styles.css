@@ -269,13 +269,17 @@ footer{
     background-repeat: no-repeat;
 }
 .primercuadro{
+    position: absolute;
     justify-content: column;
     
 }
 
 .news{
     justify-content: column;
-    margin-left: 2rem;
+    position: relative;
+    margin-left: 50rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .botonsuscribe button{
 
