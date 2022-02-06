@@ -1,10 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header{
+.logos{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 header button{
@@ -22,6 +31,7 @@ header button:hover{
     color: white;
 }
 
+<<<<<<< HEAD
 
 .Grow h2{
     position: absolute;
@@ -95,6 +105,8 @@ header button:hover{
 
 
     
+=======
+>>>>>>> 868845c8fbdfac5450e5805e5668de8074b36ce9
 .section-01{
     text-align: center;
 }
@@ -103,6 +115,10 @@ header button:hover{
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     margin-top: 100px;
+}
+
+.section-01 p{
+    margin-top: 15px;
 }
 
 .btn-centro{
@@ -135,6 +151,7 @@ header button:hover{
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    
 }
 
 .commesa{
@@ -148,19 +165,154 @@ header button:hover{
     justify-content: space-around;
 }
 
+.text-commesa span{
+    font-weight: 700;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Grow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    background: url(./images/wave.svg)no-repeat top;
+    background-size: cover;
+}
+
+.text-grow{
+    margin-top: 15em;
+}
+
+.Grow img{
+    width: 700px;
+    height: 500px;
+}
+
+.Grow h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Grow p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+.Flowing{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;    
+}
+
+.text-flowing{
+    margin-top: 15em;
+}
+
+.imgflow{
+    width: 700px;
+    height: 500px;
+}
+
+.Flowing h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Flowing p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.Users{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    background: url(./images/wave.svg)no-repeat top;
+    background-size: cover;
+}
+
+.text-users{
+    margin-top: 10em;
+}
+
+.imgUsers{
+    width: 700px;
+    height: 500px;
+}
+
+.Users h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Users p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
 
 .botonfinal{
     justify-content: space-around;
     margin-top: 80px;
 }
-.text-commesa span{
-    font-weight: 700;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
 
-}
+
+
+
 
 
 .footer{
    
+}
+
+@media screen and (max-width: 375px){
+    .imgconversacion img{
+        width: 90%;
+        
+    }
+
+    .text-commesa span{
+        font-size: 25px;
+    }
+
+    .logos img{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    .imgconversacion img{
+        width: 80%;
+        
+    }
+
+    .logos img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .imgconversacion img{
+        width: 95%;
+        
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .imgconversacion img{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .imgconversacion img{
+        /* width: 100%; */
+       
+    }
 }
