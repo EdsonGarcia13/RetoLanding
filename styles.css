@@ -264,13 +264,14 @@ header button:hover{
 }
 
 footer{
-    background: url(./images/bg-footer-top-desktop.svg);
+    background: url(./images/wave.svg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+}   
 .primercuadro{
     position: absolute;
     justify-content: column;
+    margin-left: 20px;
     
 }
 
@@ -278,7 +279,6 @@ footer{
     justify-content: column;
     position: relative;
     margin-left: 50rem;
-    margin-bottom: 30px;
     margin-top: 30px;
 }
 .botonsuscribe button{
@@ -289,6 +289,8 @@ footer{
     font-size: 15px;
     background-color: hsl(322, 100%, 66%);
     color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 
