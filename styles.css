@@ -347,6 +347,7 @@ footer{
         text-align: justify;
         margin-right: 20px;
         margin-left: -30px;
+        padding-top: 40px;
     }
     .Users img{
         width: 60%;
@@ -362,6 +363,7 @@ footer{
     }
     .preguntafinal{
         margin-top: 10em;
+        padding-top: 30px;
     }
     .primercuadro{
         position: absolute;
