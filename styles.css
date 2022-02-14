@@ -307,10 +307,8 @@ footer{
 
 @media screen and (max-width: 375px){
     .imgconversacion img{
-        width: 90%;
-        
+        width: 90%;   
     }
-
     .text-commesa span{
         font-size: 25px;
     }
@@ -318,9 +316,60 @@ footer{
     .logos img{
         width: 50%;
     }
+    .Grow img{
+        width: 70%;
+        height: 70%;
+    }
+    .text-grow{
+        position: absolute;
+        margin-top: 13em;
+        text-align: justify;
+        padding-right: 13px;
+    }
+    .Flowing img{
+        margin-top: 10em;
+        margin-right: 50px;
+        width: 70%;
+        height: 70%;
+    }
+    
+    .Flowing .text-flowing{
+        position: absolute;
+        margin-top: 25em;
+        text-align: justify;
+    }
+    .Flowing p{
+        margin-top: 50px;
+        text-align: justify;
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+    .Users img{
+        width: 70%;
+        height: 70%;
+        margin-top: 10em;
+    }
+    .text-users{
+        position: absolute;
+        margin-top: 22em;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    .preguntafinal{
+        margin-top: 10em;
+    }
+    .primercuadro{
+        position: absolute;
+        margin-top: 1em;
+    }
+    .news{
+    margin-left: -1px;
+    padding-left: 10px;
+    padding-top: 200px;
+    }
+    
 
 }
-
 @media screen and (max-width: 780px){
     .imgconversacion img{
         width: 80%;
@@ -330,6 +379,51 @@ footer{
     .logos img{
         width: 50%;
     }
+    .Grow img{
+        width: 80%;
+        height: 80%;
+    }
+    .text-grow{
+        position: absolute;
+        margin-top: 18em;
+        text-align: center;
+        padding-right: 13px;
+    }
+
+    .Flowing img{
+        width: 80%;
+        height: 80%;
+    }
+    .text-flowing{
+        position: absolute;
+        margin-top: 19em;
+        text-align: center;
+        padding-right: 13px;
+    }
+    .Users img{
+        width: 70%;
+        height: 70%;
+        margin-top: 10em;
+    }
+    .text-users{
+        position: absolute;
+        margin-top: 22em;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    .preguntafinal{
+        margin-top: 10em;
+    }
+    .primercuadro{
+        position: absolute;
+        margin-top: 1em;
+    }
+    .news{
+    margin-left: -1px;
+    padding-left: 10px;
+    padding-top: 200px;
+    }
+    
 }
 
 @media screen and (max-width: 980px){
@@ -337,11 +431,48 @@ footer{
         width: 90%;
         
     }
+    .Grow img{
+        width: 70%;
+        height: 70%;
+    }
+    .Flowing img{
+        width: 80%;
+        height: 80%;
+    }
+    .text-flowing{
+        position: absolute;
+        margin-top: 18em;
+        text-align: center;
+        padding-right: 13px;
+    }
+    .text-users{
+        padding-left: 10px;
+    }
+    .preguntafinal{
+        margin-top: 10em;
+    }
+    .primercuadro{
+        position: absolute;
+        margin-top: 1em;
+    }
+    .news{
+    margin-left: -1px;
+    padding-left: 10px;
+    padding-top: 200px;
+    }
 }
+
 
 @media screen and (max-width: 1440px){
     .imgconversacion img{
         width: 95%;
         
+    }
+    .Flowing img{
+        width: 70%;
+        
+    }
+    .text-users{
+        padding-left: 10px;
     }
 }
