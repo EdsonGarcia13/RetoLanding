@@ -338,8 +338,12 @@ footer{
         margin-top: 25em;
         text-align: justify;
     }
+    .Flowing h2{
+        padding-top: 20px;
+    }
+    
     .Flowing p{
-        margin-top: 50px;
+        margin-top: 20px;
         text-align: justify;
         margin-right: 20px;
         margin-left: -30px;
@@ -354,7 +358,7 @@ footer{
         margin-top: 24em;
         text-align: justify;
         padding-right: 30px;
-        padding-top: 20px;
+        padding-top: 70px;
     }
     .preguntafinal{
         margin-top: 10em;
